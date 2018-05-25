@@ -1,0 +1,354 @@
+table {
+	border: 1px solid #ccc;
+	border-collapse: collapse;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	table-layout: fixed;
+}
+table caption {
+	font-size: 1.5em;
+	margin: .5em 0 .75em;
+}
+table tr {
+	background: #f8f8f8;
+	border: 1px solid #ddd;
+	padding: .35em;
+}
+table th,
+table td {
+	padding: .625em;
+	text-align: center;
+}
+table th {
+	font-size: .85em;
+	letter-spacing: .1em;
+	text-transform: uppercase;
+}
+body {
+	font: 11px sans-serif;
+	overflow: scroll;
+}
+.axis path,
+.axis line {
+	fill: none;
+	stroke: #000;
+	shape-rendering: crispEdges;
+}
+.circle {
+	stroke: #000;
+}
+.tooltip {
+	position: absolute;
+	width: 200px;
+	height: 28px;
+	pointer-events: none;
+}
+.svg-container {
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	padding-bottom: 100%; /* aspect ratio */
+	vertical-align: top;
+	overflow: scroll;
+}
+.svg-content-responsive {
+	display: inline-block;
+	position: absolute;
+	top: 10px;
+	left: 0;
+}
+.container {
+	/* center contents */
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1rem 1.5rem;
+	margin: auto;
+}
+.evenly-distributed-children {
+	-ms-box-orient: horizontal;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: flex;
+	justify-content: space-between;
+}
+
+.wrap {
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+.flexbox-centering {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.grid-centering {
+	display: grid;
+	justify-content: center;
+	align-items: center;
+}
+
+.square-card {
+	position: relative;
+	margin-bottom: 20px;
+	padding-bottom: 30px;
+	background: #fefff9;
+	width: 30%;
+	text-align: center;
+}
+
+select {
+	text-align-last: center;
+	padding-right: 29px;
+	direction: ltr;
+}
+
+.card-title {
+	padding: 2.5% 0 2.5% 0;
+	color: black;
+	opacity: 0.5;
+	font-family: 'Roboto Condensed', sans-serif;
+	text-transform: uppercase;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	font-size: 12px;
+	font-size: 2vw;
+}
+.card-score {
+	padding: 2.5% 0 2.5% 0;
+	margin: 0px;
+	color: black;
+	font-family: 'Roboto Condensed', sans-serif;
+	text-transform: uppercase;
+	width: 100%;
+	font-size: 15px;
+	font-size: 3vw;
+}
+.calendar-text { margin-top: .3em; }
+
+
+.green-bg {
+	background: rgba(157, 187, 63, .85);
+}
+
+.red-bg {
+	background-color: #e84855;
+}
+
+.orange-bg {
+	background-color: #ff9b71;
+}
+.hairline-border {
+	box-shadow: 0 0 0 1px;
+}
+@media (min-resolution: 2dppx) {
+	.hairline-border {
+		box-shadow: 0 0 0 0.5px;
+	}
+}
+@media (min-resolution: 3dppx) {
+	.hairline-border {
+		box-shadow: 0 0 0 0.33333333px;
+	}
+}
+@media (min-resolution: 4dppx) {
+	.hairline-border {
+		box-shadow: 0 0 0 0.25px;
+	}
+}
+
+/*-------- global --------*/
+body {
+	background-color: #242424;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 10px;
+	font-size: 2vw;
+}
+.card-container {
+	margin: 50px;
+}
+
+/*-------- flex container --------*/
+.flex-container {
+	display: flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-box;
+	display: -webkit-flex;
+	justify-content: space-around;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	-webkit-flex-flow: row wrap;
+	position: relative;
+}
+.flex-item {
+	color: #fff;
+	height: 210px;
+	margin: 10px 0;
+	padding: 0;
+	width: 225px;
+	position: relative;
+}
+.flex-item-inner {
+	display: flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-box;
+	display: -webkit-flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	height: 210px;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+.flex-item-inner a {
+	color: #fff;
+	cursor: pointer;
+}
+
+/*-------- cards --------*/
+.card-front,
+.card-back {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 185px;
+	height: 170px;
+	padding: 20px;
+	margin: 0;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transition: -webkit-transform 0.3s;
+	transition: transform 0.3s;
+	justify-content: flex-end;
+}
+.card-front i.tile-icon {
+	display: block;
+	margin: 10px auto 20px auto;
+	text-align: center;
+}
+.card-front h4 {
+	font-size: 18px;
+	font-weight: normal;
+	margin: 10px 0;
+}
+.card-front p.detail {
+	font-size: 24px;
+	font-weight: bold;
+	margin: 0;
+}
+.card-front.bg-violet {
+	background-color: #702082;
+}
+.card-front.bg-magenta {
+	background-color: #c110a0;
+}
+.card-front.bg-blue {
+	background-color: #00a0d2;
+}
+.card-front.bg-green {
+	background-color: #00c389;
+}
+.card-back {
+	background-color: #1e1e1e;
+	-webkit-transform: rotateY(-180deg);
+	transform: rotateY(-180deg);
+}
+.card-back p.title {
+	color: #000;
+	margin-top: 0;
+	text-transform: uppercase;
+}
+.card-back p.desc {
+	color: #63666a;
+}
+.card-back p.link {
+	color: #702082;
+}
+.card-back.bg-violet {
+	background-color: #d8d7df;
+}
+.card-back.bg-magenta {
+	background-color: #ddd0cf;
+}
+.card-back.bg-blue {
+	background-color: #c8d7df;
+}
+.card-back.bg-green {
+	background-color: #d9e6dc;
+}
+
+/*-------- cards / flip effect --------*/
+.flex-item:hover .card-front {
+	-webkit-transform: rotateY(-180deg);
+	transform: rotateY(-180deg);
+}
+.flex-item:hover .card-back {
+	-webkit-transform: rotateY(0);
+	transform: rotateY(0);
+}
+
+.tomato-color{
+	color: #FF6347;
+}
+
+.border-bottom{
+	border-bottom: 1px solid grey;
+	padding-bottom: 20px;
+}
+
+.border-bottom-activity{
+	border-bottom: 1px solid grey;
+	padding-bottom: 5px;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
+
+
+

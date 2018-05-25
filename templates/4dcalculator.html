@@ -1,0 +1,71 @@
+{% extends "layout.html" %} 
+{% block body %}
+<script type="text/javascript" charset="utf-8">
+    function calculate() {
+        if ($("#startYear").val() > $('#end_year').val()) {
+            alert('Invalid date range');
+        } else {
+            if($('#number').val().length != 4){
+                alert('Please enter a 4 digit number');
+            }else{
+            $.ajax({
+                type: 'POST',
+                url: "{{ url_for('calculate') }}",
+                data: {
+                    start_year: $("#start_year").val(),
+                    end_year: $("#end_year").val(),
+                    big_bet: $('#big_bet').val(),
+                    small_bet: $('#small_bet').val(),
+                    number: $('#number').val(),
+                },
+                success: function (data) {
+                    document.getElementById("status").innerHTML = data;
+                },
+                error: function (error) {
+                    console.log(error)
+                }
+            });
+        }
+    }
+}
+</script>
+
+<div id='selection_form' class='form-group mdl-card container flexbox-centering'>
+    <form>
+        <label for="start_year">Starting Year</label>
+        <select id="start_year" class="form-control" justify-content='center'class="form-control" justify-content='center'></select>
+        <label for="end_year">End Year</label>
+        <select id="end_year"class="form-control" justify-content='center'></select>
+        <label for="big_bet">Big Bet</label>
+        <input id='big_bet' type="number" value="0" step="1" min="0" class="form-control" justify-content='center'/>
+        <label for="small_bet">Small Bet</label>
+        <input id='small_bet' type="number" value="0" step="1" min="0"class="form-control" justify-content='center'/>
+        <label for="number">4d number</label>
+        <input id='number' type="number"  name="pincode" minlength="4" maxlength="4" pattern="\d{4}" required class="form-control" justify-content='center'/>
+    </form>
+    <div id='controls'>
+        <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" onclick="calculate()">Go</button>
+    </div>
+    <p id='status'></p>
+</div>
+<script>
+    var min = 1986,
+        max = 2018,
+        startSelect = document.getElementById('start_year'),
+        endSelect = document.getElementById('end_year');
+
+    for (var i = min; i <= max; i++) {
+        var opt = document.createElement('option');
+        opt.value = i;
+        opt.innerHTML = i;
+        startSelect.appendChild(opt);
+    }
+    for (var i = min; i <= max; i++) {
+        var opt = document.createElement('option');
+        opt.value = i;
+        opt.innerHTML = i;
+        endSelect.appendChild(opt);
+    }
+
+</script> 
+{% endblock %}

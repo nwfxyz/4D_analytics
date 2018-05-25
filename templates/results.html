@@ -1,0 +1,21 @@
+
+<div id='results table'>
+    <table id='prizes_dates'>
+        <tr>
+            <th>Date</th>
+            <th>Prize</th>
+        </tr>
+        {% for prize in prizes %}
+        <tr>
+            <td>{{ prize.draw_date.strftime('%Y-%m-%d') }}</td>
+            <td>{{ prize.prize_code }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</div>
+<div>
+    Total bets: {{ cost }}</br>
+    Total winnings: {{ winnings}}</br>
+    {{ total }}</br>
+</div>
+

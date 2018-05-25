@@ -1,0 +1,156 @@
+stn_code	mrt_station_english	mrt_station_chinese	mrt_line_english	mrt_line_chinese	count	p_breakdown	p_no_breakdown
+NS1	Jurong East	???	North South Line	???	92	0.063013699	0.936986301
+NS2	Bukit Batok	????	North South Line	???	88	0.060273973	0.939726027
+NS3	Bukit Gombak	????	North South Line	???	88	0.060273973	0.939726027
+NS4	Choa Chu Kang	???	North South Line	???	91	0.062328767	0.937671233
+NS5	Yew Tee	??	North South Line	???	92	0.063013699	0.936986301
+NS7	Kranji	???	North South Line	???	92	0.063013699	0.936986301
+NS8	Marsiling	???	North South Line	???	93	0.06369863	0.93630137
+NS9	Woodlands	??	North South Line	???	99	0.067808219	0.932191781
+NS10	Admiralty	???	North South Line	???	94	0.064383562	0.935616438
+NS11	Sembawang	???	North South Line	???	98	0.067123288	0.932876712
+NS13	Yishun	??	North South Line	???	111	0.076027397	0.923972603
+NS14	Khatib	??	North South Line	???	105	0.071917808	0.928082192
+NS15	Yio Chu Kang	???	North South Line	???	108	0.073972603	0.926027397
+NS16	Ang Mo Kio	???	North South Line	???	120	0.082191781	0.917808219
+NS17	Bishan	??	North South Line	???	117	0.080136986	0.919863014
+NS18	Braddell	???	North South Line	???	110	0.075342466	0.924657534
+NS19	Toa Payoh	???	North South Line	???	111	0.076027397	0.923972603
+NS20	Novena	???	North South Line	???	105	0.071917808	0.928082192
+NS21	Newton	??	North South Line	???	110	0.075342466	0.924657534
+NS22	Orchard	??	North South Line	???	111	0.076027397	0.923972603
+NS23	Somerset	???	North South Line	???	110	0.075342466	0.924657534
+NS24	Dhoby Ghaut	???	North South Line	???	109	0.074657534	0.925342466
+NS25	City Hall	????	North South Line	???	104	0.071232877	0.928767123
+NS26	Raffles Place	????	North South Line	???	107	0.073287671	0.926712329
+NS27	Marina Bay	???	North South Line	???	105	0.071917808	0.928082192
+NS28	Marina South Pier	?????	North South Line	???	44	0.030136986	0.969863014
+EW1	Pasir Ris	???	East West Line	???	62	0.042465753	0.957534247
+EW2	Tampines	???	East West Line	???	63	0.043150685	0.956849315
+EW3	Simei	??	East West Line	???	55	0.037671233	0.962328767
+EW4	Tanah Merah	????	East West Line	???	65	0.044520548	0.955479452
+EW5	Bedok	??	East West Line	???	60	0.04109589	0.95890411
+EW6	Kembangan	???	East West Line	???	59	0.040410959	0.959589041
+EW7	Eunos	???	East West Line	???	62	0.042465753	0.957534247
+EW8	Paya Lebar	????	East West Line	???	60	0.04109589	0.95890411
+EW9	Aljunied	???	East West Line	???	52	0.035616438	0.964383562
+EW10	Kallang	??	East West Line	???	48	0.032876712	0.967123288
+EW11	Lavender	???	East West Line	???	45	0.030821918	0.969178082
+EW12	Bugis	???	East West Line	???	46	0.031506849	0.968493151
+EW13	City Hall	????	East West Line	???	39	0.026712329	0.973287671
+EW14	Raffles Place	????	East West Line	???	39	0.026712329	0.973287671
+EW15	Tanjong Pagar	????	East West Line	???	41	0.028082192	0.971917808
+EW16	Outram Park	???	East West Line	???	41	0.028082192	0.971917808
+EW17	Tiong Bahru	???	East West Line	???	37	0.025342466	0.974657534
+EW18	Redhill	??	East West Line	???	37	0.025342466	0.974657534
+EW19	Queenstown	???	East West Line	???	45	0.030821918	0.969178082
+EW20	Commonwealth	??	East West Line	???	45	0.030821918	0.969178082
+EW21	Buona Vista	?????	East West Line	???	47	0.032191781	0.967808219
+EW22	Dover	??	East West Line	???	44	0.030136986	0.969863014
+EW23	Clementi	???	East West Line	???	48	0.032876712	0.967123288
+EW24	Jurong East	???	East West Line	???	38	0.026027397	0.973972603
+EW25	Chinese Garden	???	East West Line	???	37	0.025342466	0.974657534
+EW26	Lakeside	??	East West Line	???	35	0.023972603	0.976027397
+EW27	Boon Lay	??	East West Line	???	45	0.030821918	0.969178082
+EW28	Pioneer	??	East West Line	???	41	0.028082192	0.971917808
+EW29	Joo Koon	??	East West Line	???	43	0.029452055	0.970547945
+EW30	Gul Circle	??? ?	East West Line	???	8	0.005479452	0.994520548
+EW31	Tuas Crescent	????	East West Line	???	7	0.004794521	0.995205479
+EW32	Tuas West Road	? ? ? ??	East West Line	???	7	0.004794521	0.995205479
+EW33	Tuas Link	?????	East West Line	???	7	0.004794521	0.995205479
+CG1	Expo	??	Changi Airport Branch Line	??????	2	0.001369863	0.998630137
+CG2	Changi Airport	????	Changi Airport Branch Line	??????	10	0.006849315	0.993150685
+NE1	HarbourFront	??	North East Line	???	12	0.008219178	0.991780822
+NE3	Outram Park	???	North East Line	???	13	0.00890411	0.99109589
+NE4	Chinatown	???	North East Line	???	13	0.00890411	0.99109589
+NE5	Clarke Quay	????	North East Line	???	13	0.00890411	0.99109589
+NE6	Dhoby Ghaut	???	North East Line	???	13	0.00890411	0.99109589
+NE7	Little India	???	North East Line	???	13	0.00890411	0.99109589
+NE8	Farrer Park	????	North East Line	???	13	0.00890411	0.99109589
+NE9	Boon Keng	??	North East Line	???	13	0.00890411	0.99109589
+NE10	Potong Pasir	????	North East Line	???	13	0.00890411	0.99109589
+NE11	Woodleigh	??	North East Line	???	13	0.00890411	0.99109589
+NE12	Serangoon	???	North East Line	???	13	0.00890411	0.99109589
+NE13	Kovan	??	North East Line	???	13	0.00890411	0.99109589
+NE14	Hougang	??	North East Line	???	13	0.00890411	0.99109589
+NE15	Buangkok	??	North East Line	???	13	0.00890411	0.99109589
+NE16	Sengkang	??	North East Line	???	13	0.00890411	0.99109589
+NE17	Punggol	??	North East Line	???	13	0.00890411	0.99109589
+CC1	Dhoby Ghaut	???	Circle Line	??	13	0.00890411	0.99109589
+CC2	Bras Basah	??	Circle Line	??	13	0.00890411	0.99109589
+CC3	Esplanade	????	Circle Line	??	13	0.00890411	0.99109589
+CC4	Promenade	???	Circle Line	??	15	0.010273973	0.989726027
+CC5	Nicoll Highway	????	Circle Line	??	14	0.009589041	0.990410959
+CC6	Stadium	???	Circle Line	??	15	0.010273973	0.989726027
+CC7	Mountbatten	???	Circle Line	??	15	0.010273973	0.989726027
+CC8	Dakota	???	Circle Line	??	14	0.009589041	0.990410959
+CC9	Paya Lebar	????	Circle Line	??	14	0.009589041	0.990410959
+CC10	MacPherson	???	Circle Line	??	14	0.009589041	0.990410959
+CC11	Tai Seng	??	Circle Line	??	14	0.009589041	0.990410959
+CC12	Bartley	???	Circle Line	??	14	0.009589041	0.990410959
+CC13	Serangoon	???	Circle Line	??	13	0.00890411	0.99109589
+CC14	Lorong Chuan	???	Circle Line	??	13	0.00890411	0.99109589
+CC15	Bishan	??	Circle Line	??	13	0.00890411	0.99109589
+CC16	Marymount	???	Circle Line	??	14	0.009589041	0.990410959
+CC17	Caldecott	???	Circle Line	??	27	0.018493151	0.981506849
+CC19	Botanic Gardens	???	Circle Line	??	26	0.017808219	0.982191781
+CC20	Farrer Road	???	Circle Line	??	25	0.017123288	0.982876712
+CC21	Holland Village	???	Circle Line	??	23	0.015753425	0.984246575
+CC22	Buona Vista	?????	Circle Line	??	14	0.009589041	0.990410959
+CC23	one-north	??	Circle Line	??	14	0.009589041	0.990410959
+CC24	Kent Ridge	???	Circle Line	??	14	0.009589041	0.990410959
+CC25	Haw Par Villa	????	Circle Line	??	8	0.005479452	0.994520548
+CC26	Pasir Panjang	????	Circle Line	??	8	0.005479452	0.994520548
+CC27	Labrador Park	?????	Circle Line	??	8	0.005479452	0.994520548
+CC28	Telok Blangah	?????	Circle Line	??	8	0.005479452	0.994520548
+CC29	HarbourFront	??	Circle Line	??	8	0.005479452	0.994520548
+CE1	Bayfront	???	Circle Line Extension	?????	0	0	1
+CE2	Marina Bay	???	Circle Line Extension	?????	0	0	1
+DT1	Bukit Panjang	????	Downtown Line	?????	13	0.011872146	0.988127854
+DT2	Cashew	??	Downtown Line	?????	13	0.011872146	0.988127854
+DT3	Hillview	??	Downtown Line	?????	13	0.011872146	0.988127854
+DT5	Beauty World	???	Downtown Line	?????	13	0.011872146	0.988127854
+DT6	King Albert Park	?????	Downtown Line	?????	13	0.011872146	0.988127854
+DT7	Sixth Avenue	???	Downtown Line	?????	13	0.011872146	0.988127854
+DT8	Tan Kah Kee	???	Downtown Line	?????	12	0.010958904	0.989041096
+DT9	Botanic Gardens	???	Downtown Line	?????	13	0.011872146	0.988127854
+DT10	Stevens	???	Downtown Line	?????	13	0.011872146	0.988127854
+DT11	Newton	??	Downtown Line	?????	13	0.011872146	0.988127854
+DT12	Little India	???	Downtown Line	?????	13	0.011872146	0.988127854
+DT13	Rochor	??	Downtown Line	?????	13	0.011872146	0.988127854
+DT14	Bugis	???	Downtown Line	?????	13	0.011872146	0.988127854
+DT15	Promenade	???	Downtown Line	?????	13	0.011872146	0.988127854
+DT16	Bayfront	???	Downtown Line	?????	13	0.011872146	0.988127854
+DT17	Downtown	???	Downtown Line	?????	14	0.012785388	0.987214612
+DT18	Telok Ayer	????	Downtown Line	?????	14	0.012785388	0.987214612
+DT19	Chinatown	???	Downtown Line	?????	14	0.012785388	0.987214612
+DT20	Fort Canning	???	Downtown Line	?????	11	0.010045662	0.989954338
+DT21	Bencoolen	???	Downtown Line	?????	11	0.010045662	0.989954338
+DT22	Jalan Besar	????	Downtown Line	?????	11	0.010045662	0.989954338
+DT23	Bendemeer	????	Downtown Line	?????	11	0.010045662	0.989954338
+DT24	Geylang Bahru	????	Downtown Line	?????	11	0.010045662	0.989954338
+DT25	Mattar	??	Downtown Line	?????	11	0.010045662	0.989954338
+DT26	MacPherson	???	Downtown Line	?????	11	0.010045662	0.989954338
+DT27	Ubi	??	Downtown Line	?????	11	0.010045662	0.989954338
+DT28	Kaki Bukit	????	Downtown Line	?????	11	0.010045662	0.989954338
+DT29	Bedok North	???	Downtown Line	?????	11	0.010045662	0.989954338
+DT30	Bedok Reservoir	?????	Downtown Line	?????	11	0.010045662	0.989954338
+DT31	Tampines West	????	Downtown Line	?????	11	0.010045662	0.989954338
+DT32	Tampines	???	Downtown Line	?????	11	0.010045662	0.989954338
+DT33	Tampines East	????	Downtown Line	?????	11	0.010045662	0.989954338
+DT34	Upper Changi	????	Downtown Line	?????	11	0.010045662	0.989954338
+DT35	Expo	??	Downtown Line	?????	11	0.010045662	0.989954338
+BP1	Choa Chu Kang	???	Bukit Panjang LRT	???????	13	0.00890411	0.99109589
+BP2	South View	??	Bukit Panjang LRT	???????	13	0.00890411	0.99109589
+BP3	Keat Hong	??	Bukit Panjang LRT	???????	13	0.00890411	0.99109589
+BP4	Teck Whye	??	Bukit Panjang LRT	???????	14	0.009589041	0.990410959
+BP5	Phoenix	??	Bukit Panjang LRT	???????	15	0.010273973	0.989726027
+BP6	Bukit Panjang	????	Bukit Panjang LRT	???????	11	0.007534247	0.992465753
+BP7	Petir	??	Bukit Panjang LRT	???????	11	0.007534247	0.992465753
+BP8	Pending	??	Bukit Panjang LRT	???????	12	0.008219178	0.991780822
+BP9	Bangkit	??	Bukit Panjang LRT	???????	12	0.008219178	0.991780822
+BP10	Fajar	??	Bukit Panjang LRT	???????	11	0.007534247	0.992465753
+BP11	Segar	??	Bukit Panjang LRT	???????	1	0.000684932	0.999315068
+BP12	Jelapang	???	Bukit Panjang LRT	???????	1	0.000684932	0.999315068
+BP13	Senja	??	Bukit Panjang LRT	???????	1	0.000684932	0.999315068
+BP14	Ten Mile Junction	????	Bukit Panjang LRT	???????	1	0.000684932	0.999315068
