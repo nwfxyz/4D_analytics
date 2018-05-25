@@ -18,7 +18,7 @@ def get_prizes(start_year, end_year, number=0, small_bet=0, big_bet=0):
     """
     rangedf = df[df['draw_date'].isin(pd.date_range(str(start_year), str(end_year)))]
     print(rangedf)
-    prizesdf = rangedf[rangedf['digit']== 993]
+    prizesdf = rangedf[rangedf['digit']== number]
     print(prizesdf)
     cost = (big_bet + small_bet) * 3 * 52 * (end_year - start_year)
     winnings = big_bet * prizesdf['big_bet'].sum() + small_bet * prizesdf['small_bet'].sum()
