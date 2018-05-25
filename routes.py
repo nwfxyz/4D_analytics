@@ -65,9 +65,9 @@ def calculate():
                          number=number, big_bet=big_bet, small_bet=small_bet)
     print(results)
     if results['total'] >= 0:
-        total = 'Profits : {}\n'.format(results['total'])
+        total = '<strong>Profits :</strong> ${}\n'.format(results['total'])
     else:
-        total = 'Loss: {}\n'.format(results['total'])
+        total = '<strong>Loss:</strong> ${}\n'.format(results['total'])
 
     return render_template('results.html', cost=results['cost'], 
                             winnings=results['winnings'], total=total, prizes=results['prizes'])
