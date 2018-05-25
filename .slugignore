@@ -5,3 +5,4 @@ data/
 DataViz/
 Calculator/
 *.r
+.RHistory
