@@ -1,5 +1,7 @@
-
 # dataviz and git repo
 scraping/
 data/
 DataViz/
+Calculator/
+*.r
+.RHistory
