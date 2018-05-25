@@ -11,7 +11,7 @@ df['draw_date'] = pd.to_datetime(df['draw_date'])
 
 
 @app.route('/', methods=['GET'])
-def test():
+def index():
     """
     renders template for form
     """
