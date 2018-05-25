@@ -3,3 +3,5 @@
 scraping/
 data/
 DataViz/
+Calculator/
+*.r
