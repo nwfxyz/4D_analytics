@@ -33,24 +33,24 @@
 
 <div id='selection_form' class='form-group mdl-card container flexbox-centering'>
         <form>
-            <label for="start_year">Starting Year</label>
-            <select id="start_year" name='start_year' class="form-control" justify-content='center'class="form-control" justify-content='center'></select>
-            <label  for="end_year">End Year</label>
-            <select id="end_year"class="form-control" justify-content='center'></select>
-            <label for="big_bet">Big Bet</label>
-            <input id='big_bet' type="number" value="0" step="1" min="0" class="form-control" justify-content='center'/>
-            <label for="small_bet">Small Bet</label>
-            <input id='small_bet' type="number" value="0" step="1" min="0"class="form-control" justify-content='center'/>
-            <label for="number">4d number</label>
-            <input id='number' type="number"  name="pincode" minlength="4" maxlength="4" pattern="\d{4}" required class="form-control" justify-content='center'/>
+            <div>
+            <p class='label'>Starting Year</p>
+            <select id="start_year" name="start_year" class="form-control" justify-content='center' class="form-control" justify-content='center'></select>
+            <p class='label'>End Year</p>
+            <select id="end_year" class="form-control" justify-content='center'></select>
+            <p class='label'>Big Bet</p>
+            <input id="big_bet" type="number" value="0" step="1" min="0" class="form-control"/>
+            <p class='label'>Small Bet</p>
+            <input id="small_bet" type="number" value="0" step="1" min="0" class="form-control"/>
+            <p class='label'>4D number</p>
+            <input id='number' type="number" minlength="4" maxlength="4" pattern="\d{4}" required class="form-control" justify-content='center'/>
+            </div>
         </form>
-        <div id='controls mdl-card__actions mdl-card--border"'>
-            <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" onclick="calculate()">Go</button>
+        <div id='controls' class='mdl-card__actions'>
+            <button class="label mdl-button mdl-button--raised mdl-button--colored mdl-js-button mdl-js-ripple-effect" onclick="calculate()">Show me the money</button>
         </div>
         <p id='status'></p>
     </div>
-
-<p id='status'></p>
 <script>
     var min = 1986,
         max = 2018,

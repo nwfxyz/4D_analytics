@@ -1,14 +1,7 @@
 
 .container > div {
-    text-align: center;
+	text-align: center;
 }
-label {
-	display: inline-block;
-    text-align: center;
-    line-height: 150%;
-    font-size: .85em;
-}
-
 table {
 	border: 1px solid #ccc;
 	border-collapse: collapse;
@@ -35,39 +28,6 @@ table th {
 	font-size: .85em;
 	letter-spacing: .1em;
 	text-transform: uppercase;
-}
-body {
-	font: 11px sans-serif;
-	overflow: scroll;
-}
-.axis path,
-.axis line {
-	fill: none;
-	stroke: #000;
-	shape-rendering: crispEdges;
-}
-.circle {
-	stroke: #000;
-}
-.tooltip {
-	position: absolute;
-	width: 200px;
-	height: 28px;
-	pointer-events: none;
-}
-.svg-container {
-	display: inline-block;
-	position: relative;
-	width: 100%;
-	padding-bottom: 100%; /* aspect ratio */
-	vertical-align: top;
-	overflow: scroll;
-}
-.svg-content-responsive {
-	display: inline-block;
-	position: absolute;
-	top: 10px;
-	left: 0;
 }
 .container {
 	/* center contents */
@@ -277,6 +237,14 @@ body {
 	margin-top: 0;
 	text-transform: uppercase;
 }
+p.label {
+	color: #000;
+	text-transform: uppercase;
+	opacity: 0.5;
+	font-family: 'Roboto Condensed', sans-serif;
+	text-transform: uppercase;
+	margin-bottom: 0px;
+}
 .card-back p.desc {
 	color: #63666a;
 }
@@ -316,6 +284,7 @@ body {
 }
 
 .border-bottom-activity{
+	padding-top: 20px;
 	border-bottom: 1px solid grey;
 	padding-bottom: 5px;
 }
@@ -357,9 +326,3 @@ body {
     visibility: visible;
     opacity: 1;
 }
-
-
-
-
-
-
