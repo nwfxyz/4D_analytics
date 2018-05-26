@@ -33,7 +33,6 @@
 
 <div id='selection_form' class='form-group mdl-card container flexbox-centering'>
         <form>
-            <div class='card-container '>
             <label for="start_year">Starting Year</label>
             <select id="start_year" name='start_year' class="form-control" justify-content='center'class="form-control" justify-content='center'></select>
             <label  for="end_year">End Year</label>
@@ -44,9 +43,8 @@
             <input id='small_bet' type="number" value="0" step="1" min="0"class="form-control" justify-content='center'/>
             <label for="number">4d number</label>
             <input id='number' type="number"  name="pincode" minlength="4" maxlength="4" pattern="\d{4}" required class="form-control" justify-content='center'/>
-            </div>
         </form>
-        <div id='controls'>
+        <div id='controls mdl-card__actions mdl-card--border"'>
             <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" onclick="calculate()">Go</button>
         </div>
         <p id='status'></p>
