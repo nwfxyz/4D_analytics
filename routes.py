@@ -26,8 +26,8 @@ def determine_returns(weekly_total=0, years=0):
     i_alpha = float(pa_interest/comp_period)
     a_alpha = (1+i_alpha)**comp_period
     EAR_weekly = a_alpha**(1/pay_period) - 1
-    future_value = annuity *((1 + EAR_weekly)**(pay_period*years)-1)/EAR_weekly
-    print(future_value)
+    denominator = (1+ EAR_weekly)**(years*pay_period)
+    future_value = annuity *(denominator-1)/EAR_weekly
     return "{:.2f}".format(future_value)
 
 def get_prizes(start_year, end_year, number=0, small_bet=0, big_bet=0):
@@ -72,7 +72,8 @@ def calculate():
     results = get_prizes(start_year=start_year, end_year=end_year,
                          number=number, big_bet=big_bet, small_bet=small_bet)
     weekly_total = (small_bet + big_bet) * 3
-    years = start_year - end_year
+    years = end_year - start_year
+    print(years)
     if years == 0:
         years = 1
     investment = determine_returns(weekly_total=weekly_total, years=years)
