@@ -1,5 +1,9 @@
+
+.container > div {
+    text-align: center;
+}
 label {
-    display: block;
+	display: inline-block;
     text-align: center;
     line-height: 150%;
     font-size: .85em;
