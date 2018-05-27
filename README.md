@@ -8,16 +8,16 @@ DISCLAIMER: We do not advocate gambling. This study aims to show that gambling h
 
 ## Obtaining of Data
 
-We used the api provided by Singapore pools to obtain the historical dataset from 1986 to today.
+We used the Singapore pools website to obtain the historical dataset from 1986 to today.
 http://www.singaporepools.com.sg/en/product/Pages/4d_cpwn.aspx
 
 ## Data Visualization of 4D Numbers vs Historical Prize Money
 
-https://imgur.com/a/KPHPlIC
+<img src="https://i.imgur.com/fIbJn9m.png" height="600">
 Using the historical data, we produced a heatmap of each number from 0000 to 9999. "Red" signifies a lucky number or a number that has won relatively more prizes than others.
 
 Histogram of Historical Prizes:
-https://imgur.com/T1MEFW3
+<img src="https://i.imgur.com/T1MEFW3.png" height="600">
 
 As we can see, some numbers are "luckier" than others.
 
@@ -49,7 +49,9 @@ Our strategy goes like this:
 5) If your cash exceeds $15000, stop playing.
 
 Out of 2000 iterations, only 626 of them makes money. With the average loss of -$2,869.04.
-Density Plot: https://imgur.com/a/DM8jntJ
+Density Plot: 
+
+<img src="https://i.imgur.com/2dSsiej.png" height="500">
 
 So even with some funky strategy you still lose money most of the time.
 
