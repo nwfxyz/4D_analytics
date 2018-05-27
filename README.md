@@ -1,6 +1,6 @@
 # 4D_analytics
 
-Hi guys ! Its u/Sproinkerino and u/captmomo again from the MRT Delay post. This time we will be exploring something close to our aunties and uncles in Singapore, 4D. 
+Hi guys ! Its u/Sproinkerino and u/captmomo again from the [MRT Delay post](https://www.reddit.com/r/singapore/comments/8l7tql/miniproject_data_analysis_of_mrt_delays/). This time we will be exploring something close to our aunties and uncles in Singapore, 4D. 
 
 As well all know that any official gambling games has a negative expected payoff for the player, (-$0.341 for big and -$0.42 for small) but for 4D some people hold a special number in their hearts. Is it true that some numbers are luckier than others? And how much would you have by today if instead of spending it on 4D you place it on a simple fixed deposit? 
 
@@ -21,8 +21,8 @@ https://imgur.com/T1MEFW3
 
 As we can see, some numbers are "luckier" than others.
 
-6190, 2982 has only won a total of $50 each.
-While,  7132 and 7123 has won a total of $4850 and $4650 respectively. (What a coincedence?)
+__6190__, __2982__ has only won a total of $50 each.
+While,  __7132__ and __7123__ has won a total of $4850 and $4650 respectively. (What a coincedence?)
 
 
 ## 4D What if? Calculator
