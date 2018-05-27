@@ -17,3 +17,5 @@ totalPrize.csv - 4dNumbers vs Prize Money
 The webapp calculates how much money you would have made/lost if you have bet on the same four digits for the a range of years.  
 It also calculates how much money you would have saved if you have deposited in the bank.
 
+![screenshot](https://i.imgur.com/AD3TyyB.png | width=100)
+
