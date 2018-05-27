@@ -57,4 +57,4 @@ So even with some funky strategy you still lose money most of the time.
 
 ## Conclusion
 
-We never doubt the fun that 4D can bring to us but remember to gamble wisely and the house (Singapore Pools) always wins !
+We never doubt the fun that 4D can bring to us but remember to gamble wisely and the house (Singapore Pools) always wins!
